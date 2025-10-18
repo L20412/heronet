@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HeroNet — News Article</title>
+  <meta name="description" content="Read the full news article on HeroNet." />
+  <style>
+    :root {
+      --bg:#0f1724; --card:#0b1220; --muted:#98a2b3; --accent:#ffd166;
+      font-family: Inter, ui-sans-serif, system-ui;
+    }
+    html,body { height:100%; margin:0; background:linear-gradient(180deg,#071021 0%, var(--bg) 70%); color:#e6eef8 }
+    .container { max-width:900px; margin:28px auto; padding:20px }
+    header { display:flex; gap:18px; align-items:center; }
+    .logo { width:56px; height:56px; border-radius:12px; background:linear-gradient(135deg,#ff9f1c,#ff3d00); display:flex; align-items:center; justify-content:center; font-weight:700; color:#071021; }
+    nav { margin-left:auto; display:flex; gap:8px; }
+    .ghost { background:transparent; border:1px solid rgba(255,255,255,0.1); color:var(--muted); padding:8px 12px; border-radius:10px; cursor:pointer; }
+    h1 { font-size:22px; margin-bottom:4px; }
+    .meta { color: var(--muted); font-size:13px; margin-bottom:12px; }
+    .card { background: rgba(255,255,255,0.05); padding:18px; border-radius:12px; margin-top:20px; }
+    footer { margin-top:28px; color:var(--muted); font-size:13px; text-align:center; }
+    a { color:var(--accent); text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">HN</div>
+      <div>
+        <h1>HeroNet</h1>
+        <p style="color:var(--muted);font-size:13px">Official hub — hero news • live incidents • rankings</p>
+      </div>
+      <nav>
+        <a href="index.html"><button class="ghost">Home</button></a>
+        <a href="news.html"><button class="ghost">All News</button></a>
+        <a href="live.html"><button class="ghost">Live</button></a>
+        <a href="rankings.html"><button class="ghost">Rankings</button></a>
+      </nav>
+    </header>
+
+    <main id="articleContainer"></main>
+
+    <footer>
+      HeroNet • Hero Public Safety Commission — © Universe of My Hero Academia (fan recreation)
+    </footer>
+  </div>
+
+  <script>
+    // Helper: get ?id= from URL
+    function getQueryParam(param) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(param);
+    }
+
+    async function loadArticle() {
+      const id = parseInt(getQueryParam('id'), 10);
+      if (!id) {
+        document.getElementById('articleContainer').innerHTML = `<div class="card"><p>Invalid article ID.</p></div>`;
+        return;
+      }
+
+      try {
+        const res = await fetch('data/news.json');
+        const news = await res.json();
+        const article = news.find(n => n.id === id);
+        if (!article) {
+          document.getElementById('articleContainer').innerHTML = `<div class="card"><p>Article not found.</p></div>`;
+          return;
+        }
+
+        document.getElementById('articleContainer').innerHTML = `
+          <div class="card">
+            <h1>${article.title}</h1>
+            <div class="meta">${article.meta}</div>
+            <p>${article.body}</p>
+          </div>
+        `;
+      } catch (err) {
+        document.getElementById('articleContainer').innerHTML = `<div class="card"><p>Failed to load article.</p></div>`;
+      }
+    }
+
+    loadArticle();
+  </script>
+</body>
+</html>
