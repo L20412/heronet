@@ -1,20 +1,50 @@
 [
-{
-"id": 1,
-"title": "UA High: Training Exercise Concludes",
-"meta": "Class 1-A — 12:34 JST",
-"body": "Training concluded with high marks; public observation session scheduled."
-},
-{
-"id": 2,
-"title": "Minor Quirk Disturbance in Shibuya",
-"meta": "Shibuya — 11:08 JST",
-"body": "Crowd disruption reported; no casualties. Hero: Lemillion responded."
-},
-{
-"id": 3,
-"title": "Hero Image & Public Trust",
-"meta": "Editorial — 09:20 JST",
-"body": "A discussion of hero ranking fairness and media influence."
-}
+  {
+    "id": 1,
+    "title": "UA Students Resume Patrol Internships",
+    "meta": "10:00 AM - March 12, 2025",
+    "body": "Following recent safety approvals, hero course students have resumed internships under professional heroes nationwide."
+  },
+  {
+    "id": 2,
+    "title": "Pro Hero Rankings Adjusted After Spring Review",
+    "meta": "1:30 PM - March 15, 2025",
+    "body": "The Hero Public Safety Commission has released updated national rankings, reflecting recent incidents and performance scores."
+  },
+  {
+    "id": 3,
+    "title": "Endeavor Agency Expands Regional Support Division",
+    "meta": "8:45 AM - March 17, 2025",
+    "body": "The Endeavor Agency announced new satellite branches to improve response efficiency across metropolitan areas."
+  },
+  {
+    "id": 4,
+    "title": "Hero Commission Introduces New Quirk Safety Protocols",
+    "meta": "3:20 PM - March 19, 2025",
+    "body": "A new initiative aims to standardize quirk safety training for all registered heroes, focusing on minimizing collateral damage."
+  },
+  {
+    "id": 5,
+    "title": "Mount Lady and Kamui Woods Form Official Duo Agency",
+    "meta": "11:10 AM - March 22, 2025",
+    "body": "After months of collaboration, Mount Lady and Kamui Woods have officially merged operations under the new 'Lumber Lady Agency'."
+  },
+  {
+    "id": 6,
+    "title": "Villain Activity Drops 23% After Recent Raids",
+    "meta": "5:40 PM - March 26, 2025",
+    "body": "Hero agencies across Japan report a significant decline in villain activity following coordinated raids in major urban centers."
+  },
+  {
+    "id": 7,
+    "title": "Support Course Students Develop New Rescue Gear",
+    "meta": "9:30 AM - March 29, 2025",
+    "body": "U.A.'s support department unveiled a new modular rescue kit designed for field adaptability and high-speed emergency response."
+  },
+  {
+    "id": 8,
+    "title": "HeroNet Announces Real-Time Public Access Upgrade",
+    "meta": "2:15 PM - April 1, 2025",
+    "body": "The Hero Public Safety Commission has expanded HeroNet's infrastructure to provide civilians with up-to-date live incident data and alerts."
+  }
 ]
