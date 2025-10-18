@@ -74,7 +74,7 @@
   </div>
 
   <script>
-    async function loadData(){
+    async function loadData() {
       const [newsRes, liveRes, ranksRes] = await Promise.all([
         fetch('data/news.json'),
         fetch('data/live.json'),
@@ -87,31 +87,42 @@
       renderLive(live);
       renderRanks(ranks);
     }
-
-    function renderNews(news){
-      const el=document.getElementById('news');
-      el.innerHTML='';
-      news.slice(0,2).forEach(n=>{
-        el.innerHTML += `<div style='margin-bottom:12px'><strong>${n.title}</strong><br><small style='color:#98a2b3'>${n.meta}</small><p>${n.body}</p></div>`;
+  
+    function renderNews(news) {
+      const el = document.getElementById('news');
+      el.innerHTML = '';
+      // Sort newest first
+      const sorted = news.slice().sort((a, b) => b.id - a.id);
+      sorted.slice(0, 2).forEach(n => {
+        el.innerHTML += `
+          <div style='margin-bottom:12px'>
+            <strong>${n.title}</strong><br>
+            <small style='color:#98a2b3'>${n.meta}</small>
+            <p>${n.body}</p>
+          </div>`;
       });
     }
-
-    function renderLive(live){
-      const el=document.getElementById('live');
-      el.innerHTML='';
-      live.slice(0,3).forEach(l=>{
-        el.innerHTML += `<div style='margin-bottom:10px'><strong>${l.status}</strong><br><small style='color:#98a2b3'>${l.details}</small></div>`;
+  
+    function renderLive(live) {
+      const el = document.getElementById('live');
+      el.innerHTML = '';
+      live.slice(0, 3).forEach(l => {
+        el.innerHTML += `
+          <div style='margin-bottom:10px'>
+            <strong>${l.status}</strong><br>
+            <small style='color:#98a2b3'>${l.details}</small>
+          </div>`;
       });
     }
-
-    function renderRanks(ranks){
-      const el=document.getElementById('ranks');
-      el.innerHTML='';
-      ranks.slice(0,5).forEach(r=>{
+  
+    function renderRanks(ranks) {
+      const el = document.getElementById('ranks');
+      el.innerHTML = '';
+      ranks.slice(0, 5).forEach(r => {
         el.innerHTML += `<div>${r.pos}. ${r.name} — Score ${r.score}</div>`;
       });
     }
-
+  
     loadData();
   </script>
 </body>
