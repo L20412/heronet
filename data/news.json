@@ -46,5 +46,11 @@
     "title": "HeroNet Announces Real-Time Public Access Upgrade",
     "meta": "2:15 PM - April 1, 2025",
     "body": "The Hero Public Safety Commission has expanded HeroNet's infrastructure to provide civilians with up-to-date live incident data and alerts."
-  }
-]
+  },
+  {
+    "id": 9,
+    "title": "Certain platform data breach via Third-Party Vendor Exposes Sensitive User Information",
+    "meta": "12:05 AM - October 4, 2025",
+    "body": "An unauthorized party accessed this platform's partner's systems, compromising sensitive data of users who had interacted with that platform’s support teams"
+  },
+  ]
