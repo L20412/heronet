@@ -48,28 +48,31 @@
   </div>
 
   <script>
-    async function loadNews() {
+<script>
+  async function loadNews() {
+    const container = document.getElementById('newsContainer');
+    try {
       const res = await fetch('data/news.json');
       const news = await res.json();
-      renderNews(news);
-    }
 
-    function renderNews(news) {
-      const el = document.getElementById('newsFeed');
-      el.innerHTML = '';
-      // Sort newest first
-      const sorted = news.slice().sort((a, b) => b.id - a.id);
-      sorted.forEach(n => {
-        el.innerHTML += `
-          <div class="card">
-            <h2 style="margin-bottom:4px">${n.title}</h2>
-            <small style="color:#98a2b3">${n.meta}</small>
-            <p style="margin-top:8px">${n.body}<a href="article.html?id=${n.id}"></a></p>
-          </div>`;
-      });
-    }
+      // Sort: newest first
+      const sorted = news.sort((a, b) => b.id - a.id);
 
-    loadNews();
-  </script>
+      container.innerHTML = sorted.map(n => `
+        <a href="article.html?id=${n.id}" style="text-decoration:none;color:inherit;">
+          <div class="card" style="cursor:pointer;">
+            <h3>${n.title}</h3>
+            <div class="meta">${n.meta}</div>
+            <p>${n.body}</p>
+          </div>
+        </a>
+      `).join('');
+    } catch (err) {
+      container.innerHTML = `<div class="card"><p>Failed to load news.</p></div>`;
+    }
+  }
+
+  loadNews();
+</script>
 </body>
 </html>
