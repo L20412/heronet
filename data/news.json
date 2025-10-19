@@ -51,7 +51,8 @@
     "id": 9,
     "title": "Certain platform data breach via Third-Party Vendor Exposes Sensitive User Information",
     "meta": "12:05 AM - October 4, 2025",
-    "body": "An unauthorized party accessed certain platform's partner's systems, compromising sensitive data of users who had interacted with that platform’s support teams"
+    "body": "An unauthorized party accessed certain platform's partner's systems, compromising sensitive data of users who had interacted with that platform’s support teams",
+    "content": "'The breach, which occurred in September and was disclosed in October, stemmed from unauthorized access to systems operated by 5CA, a customer service provider. Attackers infiltrated the vendor’s infrastructure and accessed sensitive user data submitted through support channels.\n\nAccording to the platform’s statement, the compromised data includes names, email addresses, IP addresses, and partial billing information. Most notably, over 2.1 million government-issued ID photos were exposed—primarily from users appealing age verification decisions.\n\nEstimates suggest that between 70,000 and 5.5 million individuals may have been affected, depending on the nature of their interactions with support. The platform emphasized that its own infrastructure remained secure and that no user messages or account credentials were accessed.\n\nIn response, the company revoked the vendor’s access, launched a forensic investigation, and declined ransom demands from the attackers. Users who recently contacted support are advised to review their account settings and consider updating their credentials.\n\nThis incident highlights the growing risks associated with outsourcing sensitive operations and raises broader concerns about vendor oversight in the tech industry."
   },
   {
     "id": 10,
