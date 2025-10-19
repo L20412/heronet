@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Lemillion",
+    "quirk": "Permeation",
+    "agency": "Nighteye Agency",
+    "description": "A hero known for his positivity and selfless spirit. His quirk allows him to phase through solid matter, making him one of the most difficult heroes to hit in combat."
+  },
+  {
+    "id": 2,
+    "name": "Deku",
+    "quirk": "One For All",
+    "agency": "Endeavor Agency",
+    "description": "The successor of the legendary power One For All. Known for his quick thinking and analytical combat approach."
+  },
+  {
+    "id": 3,
+    "name": "Mt. Lady",
+    "quirk": "Gigantification",
+    "agency": "Mt. Lady Agency",
+    "description": "A pro hero capable of growing to a giant size. Known for her flashy entrances and commitment to protecting civilians."
+  }
+]
