@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HeroNet — HeroWiki</title>
+  <meta name="description" content="HeroNet Wiki: Public database of licensed heroes, quirks, and agencies." />
+  <style>
+    :root {
+      --bg:#0f1724; --card:#0b1220; --muted:#98a2b3; --accent:#ffd166;
+      font-family: Inter, ui-sans-serif, system-ui;
+    }
+    html,body { height:100%; margin:0; background:linear-gradient(180deg,#071021 0%, var(--bg) 70%); color:#e6eef8 }
+    .container { max-width:900px; margin:28px auto; padding:20px }
+    header { display:flex; gap:18px; align-items:center; }
+    .logo { width:56px; height:56px; border-radius:12px; background:linear-gradient(135deg,#ff9f1c,#ff3d00); display:flex; align-items:center; justify-content:center; font-weight:700; color:#071021; }
+    nav { margin-left:auto; display:flex; gap:8px; }
+    .ghost { background:transparent; border:1px solid rgba(255,255,255,0.1); color:var(--muted); padding:8px 12px; border-radius:10px; cursor:pointer; }
+    h1 { font-size:24px; margin-bottom:8px; }
+    .search-bar { margin:18px 0; display:flex; gap:8px; }
+    .search-bar input { flex:1; padding:10px 12px; border-radius:8px; border:none; background:#1a2233; color:#e6eef8; }
+    .card { background: rgba(255,255,255,0.05); padding:18px; border-radius:12px; margin-top:16px; transition:all 0.2s ease; }
+    .card:hover { background:rgba(255,255,255,0.07); transform:translateY(-2px); }
+    .hero-name { font-size:18px; font-weight:600; }
+    .hero-meta { color:var(--muted); font-size:13px; margin-top:4px; }
+    footer { margin-top:28px; color:var(--muted); font-size:13px; text-align:center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">HN</div>
+      <div>
+        <h1>HeroNet Wiki</h1>
+        <p style="color:var(--muted);font-size:13px">Public hero records — quirks, rankings, and profiles</p>
+      </div>
+      <nav>
+        <a href="index.html"><button class="ghost">Home</button></a>
+        <a href="news.html"><button class="ghost">News</button></a>
+        <a href="live.html"><button class="ghost">Live</button></a>
+        <a href="rankings.html"><button class="ghost">Rankings</button></a>
+      </nav>
+    </header>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search heroes by name, agency, or quirk..." />
+    </div>
+
+    <main id="wikiContainer"></main>
+
+    <footer>
+      HeroNet • Hero Public Safety Commission — © Universe of My Hero Academia (fan recreation)
+    </footer>
+  </div>
+
+  <script>
+    async function loadWiki() {
+      const container = document.getElementById('wikiContainer');
+      try {
+        const res = await fetch('data/wiki.json');
+        const heroes = await res.json();
+        renderHeroes(heroes);
+
+        // Search filtering
+        document.getElementById('searchInput').addEventListener('input', e => {
+          const q = e.target.value.toLowerCase();
+          const filtered = heroes.filter(h =>
+            h.name.toLowerCase().includes(q) ||
+            h.agency.toLowerCase().includes(q) ||
+            h.quirk.toLowerCase().includes(q)
+          );
+          renderHeroes(filtered);
+        });
+
+      } catch (err) {
+        container.innerHTML = `<div class="card"><p>Failed to load hero data.</p></div>`;
+      }
+    }
+
+    function renderHeroes(heroes) {
+      const container = document.getElementById('wikiContainer');
+      container.innerHTML = heroes.map(h => `
+        <div class="card">
+          <div class="hero-name">${h.name}</div>
+          <div class="hero-meta">${h.agency} • Quirk: <strong>${h.quirk}</strong></div>
+          <p style="margin-top:8px;">${h.description}</p>
+        </div>
+      `).join('');
+    }
+
+    loadWiki();
+  </script>
+</body>
+</html>
