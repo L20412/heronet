@@ -95,6 +95,7 @@
       const sorted = news.slice().sort((a, b) => b.id - a.id);
       sorted.slice(0, 3).forEach(n => {
         el.innerHTML += `
+        <hr>
           <div style='margin-bottom:12px'>
             <strong>${n.title}</strong><br>
             <small style='color:#98a2b3'>${n.meta}</small>
