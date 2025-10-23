@@ -1,78 +1,84 @@
 [
   {
-    "id": 1,
-    "title": "UA Students Resume Patrol Internships",
-    "meta": "10:00 AM - March 12, 2025",
-    "body": "Following recent safety approvals, hero course students have resumed internships under professional heroes nationwide."
+    "id":1,
+    "title":"UA Students Resume Patrol Internships",
+    "meta":"10:00 AM - March 12, 2025",
+    "body":"Following recent safety approvals, hero course students have resumed internships under professional heroes nationwide."
   },
   {
-    "id": 2,
-    "title": "Pro Hero Rankings Adjusted After Spring Review",
-    "meta": "1:30 PM - March 15, 2025",
-    "body": "The Hero Public Safety Commission has released updated national rankings, reflecting recent incidents and performance scores."
+    "id":2,
+    "title":"Pro Hero Rankings Adjusted After Spring Review",
+    "meta":"1:30 PM - March 15, 2025",
+    "body":"The Hero Public Safety Commission has released updated national rankings, reflecting recent incidents and performance scores."
   },
   {
-    "id": 3,
-    "title": "Endeavor Agency Expands Regional Support Division",
-    "meta": "8:45 AM - March 17, 2025",
-    "body": "The Endeavor Agency announced new satellite branches to improve response efficiency across metropolitan areas."
+    "id":3,
+    "title":"Endeavor Agency Expands Regional Support Division",
+    "meta":"8:45 AM - March 17, 2025",
+    "body":"The Endeavor Agency announced new satellite branches to improve response efficiency across metropolitan areas."
   },
   {
-    "id": 4,
-    "title": "Hero Commission Introduces New Quirk Safety Protocols",
-    "meta": "3:20 PM - March 19, 2025",
-    "body": "A new initiative aims to standardize quirk safety training for all registered heroes, focusing on minimizing collateral damage."
+    "id":4,
+    "title":"Hero Commission Introduces New Quirk Safety Protocols",
+    "meta":"3:20 PM - March 19, 2025",
+    "body":"A new initiative aims to standardize quirk safety training for all registered heroes, focusing on minimizing collateral damage."
   },
   {
-    "id": 5,
-    "title": "Mount Lady and Kamui Woods Form Official Duo Agency",
-    "meta": "11:10 AM - March 22, 2025",
-    "body": "After months of collaboration, Mount Lady and Kamui Woods have officially merged operations under the new 'Lumber Lady Agency'."
+    "id":5,
+    "title":"Mount Lady and Kamui Woods Form Official Duo Agency",
+    "meta":"11:10 AM - March 22, 2025",
+    "body":"After months of collaboration, Mount Lady and Kamui Woods have officially merged operations under the new 'Lumber Lady Agency'."
   },
   {
-    "id": 6,
-    "title": "Villain Activity Drops 23% After Recent Raids",
-    "meta": "5:40 PM - March 26, 2025",
-    "body": "Hero agencies across Japan report a significant decline in villain activity following coordinated raids in major urban centers."
+    "id":6,
+    "title":"Villain Activity Drops 23% After Recent Raids",
+    "meta":"5:40 PM - March 26, 2025",
+    "body":"Hero agencies across Japan report a significant decline in villain activity following coordinated raids in major urban centers."
   },
   {
-    "id": 7,
-    "title": "Support Course Students Develop New Rescue Gear",
-    "meta": "9:30 AM - March 29, 2025",
-    "body": "U.A.'s support department unveiled a new modular rescue kit designed for field adaptability and high-speed emergency response."
+    "id":7,
+    "title":"Support Course Students Develop New Rescue Gear",
+    "meta":"9:30 AM - March 29, 2025",
+    "body":"U.A.'s support department unveiled a new modular rescue kit designed for field adaptability and high-speed emergency response."
   },
   {
-    "id": 8,
-    "title": "HeroNet Announces Real-Time Public Access Upgrade",
-    "meta": "2:15 PM - April 1, 2025",
-    "body": "The Hero Public Safety Commission has expanded HeroNet's infrastructure to provide civilians with up-to-date live incident data and alerts."
+    "id":8,
+    "title":"HeroNet Announces Real-Time Public Access Upgrade",
+    "meta":"2:15 PM - April 1, 2025",
+    "body":"The Hero Public Safety Commission has expanded HeroNet's infrastructure to provide civilians with up-to-date live incident data and alerts."
   },
   {
-    "id": 9,
-    "title": "Certain platform data breach via Third-Party Vendor Exposes Sensitive User Information",
-    "meta": "12:05 AM - October 4, 2025",
-    "body": "An unauthorized party accessed certain platform's partner's systems, compromising sensitive data of users who had interacted with that platform’s support teams",
-    "content": "'The breach, which occurred in September and was disclosed in October, stemmed from unauthorized access to systems operated by 5CA, a customer service provider. Attackers infiltrated the vendor’s infrastructure and accessed sensitive user data submitted through support channels.\n\nAccording to the platform’s statement, the compromised data includes names, email addresses, IP addresses, and partial billing information. Most notably, over 2.1 million government-issued ID photos were exposed—primarily from users appealing age verification decisions.\n\nEstimates suggest that between 70,000 and 5.5 million individuals may have been affected, depending on the nature of their interactions with support. The platform emphasized that its own infrastructure remained secure and that no user messages or account credentials were accessed.\n\nIn response, the company revoked the vendor’s access, launched a forensic investigation, and declined ransom demands from the attackers. Users who recently contacted support are advised to review their account settings and consider updating their credentials.\n\nThis incident highlights the growing risks associated with outsourcing sensitive operations and raises broader concerns about vendor oversight in the tech industry."
+    "id":9,
+    "title":"Certain platform data breach via Third-Party Vendor Exposes Sensitive User Information",
+    "meta":"12:05 AM - October 4, 2025",
+    "body":"An unauthorized party accessed certain platform's partner's systems, compromising sensitive data of users who had interacted with that platform’s support teams",
+    "content":"'The breach, which occurred in September and was disclosed in October, stemmed from unauthorized access to systems operated by 5CA, a customer service provider. Attackers infiltrated the vendor’s infrastructure and accessed sensitive user data submitted through support channels.\n\nAccording to the platform’s statement, the compromised data includes names, email addresses, IP addresses, and partial billing information. Most notably, over 2.1 million government-issued ID photos were exposed—primarily from users appealing age verification decisions.\n\nEstimates suggest that between 70,000 and 5.5 million individuals may have been affected, depending on the nature of their interactions with support. The platform emphasized that its own infrastructure remained secure and that no user messages or account credentials were accessed.\n\nIn response, the company revoked the vendor’s access, launched a forensic investigation, and declined ransom demands from the attackers. Users who recently contacted support are advised to review their account settings and consider updating their credentials.\n\nThis incident highlights the growing risks associated with outsourcing sensitive operations and raises broader concerns about vendor oversight in the tech industry."
   },
   {
-    "id": 10,
-    "title": "Pro Hero Endeavor Injured in Clash with Mysterious Villain Group “Black Veil”",
-    "meta": "8:00 AM - October 19, 2025",
-    "body": "Endeavor injured battling new villain group “Black Veil”; U.A. students aid in rescue. Leader “Umbra” remains at large.",
-    "content": "<p>In a dramatic late-night confrontation in the heart of Musutafu, Japan’s No. 1 Pro Hero, **Endeavor**, sustained serious injuries during a fierce battle with a newly emerged villain faction calling themselves **Black Veil**. The group, whose members remain unidentified, launched a coordinated assault on a Hero Public Safety Commission facility, prompting an immediate response from top-ranked heroes.</p><p>Eyewitnesses reported seeing Endeavor engage in a high-speed aerial battle with a cloaked figure wielding a Quirk that manipulates shadows. “It was like watching a thunderstorm made of fire and darkness,” said one bystander. “The sky lit up, and then everything went black.”</p><p>Endeavor was later seen being evacuated by **Hawks**, the No. 2 Hero, who confirmed that the flame-wielding veteran is in stable condition but will require time to recover. “He fought like hell,” Hawks told reporters. “But this new group… they’re organized. And they’re not afraid of us.”</p><h3>UA Students Step Up</h3><p>In a surprising turn, several <b>U.A. High School</b> students, including <b>Izuku Midoriya (Deku)</b>, <b>Katsuki Bakugo</b>, and <b>Shoto Todoroki</b>, were spotted assisting in civilian evacuations and containment efforts. Principal Nezu has since confirmed that the students were acting under emergency provisional licenses.</p><p>“These young heroes demonstrated exceptional courage and restraint,” said Nezu. “Their actions likely saved dozens of lives.”</p><h3>Who Are the Black Veil?</h3><p>Little is known about the Black Veil, but early intelligence suggests ties to remnants of the <b>League of Villains</b> and possible foreign Quirk extremists. Their leader, a figure shrouded in darkness and referred to only as <b>“Umbra”</b>, is believed to possess a Quirk that allows them to manipulate and weaponize shadows.</p><p>The Hero Commission has issued a Level 4 alert and is urging citizens to remain vigilant. “This is not over,” said Commission Chairwoman Riko Tsutsumi. “We are entering a new era of villainy, and we must be ready.”</p><h3>Public Reaction</h3><p>Social media has erupted with support for Endeavor and the young heroes. Hashtags like <b>#PrayForEndeavor, #DekuToTheRescue, and #BlackVeilUnmasked</b> are trending across HeroNet.</p><p>Meanwhile, critics are questioning the Commission’s preparedness and the wisdom of deploying students into active combat zones. “We’re proud of our kids,” said one parent. “But they’re still kids.”</p><p style=\"font-size: 20px;\"><b>Stay tuned to Hero Times for updates on Endeavor’s condition, the investigation into Black Veil, and exclusive interviews with Japan’s top heroes.</b></p>"
+    "id":10,
+    "title":"Pro Hero Endeavor Injured in Clash with Mysterious Villain Group “Black Veil”",
+    "meta":"8:00 AM - October 19, 2025",
+    "body":"Endeavor injured battling new villain group “Black Veil”; U.A. students aid in rescue. Leader “Umbra” remains at large.",
+    "content":"<p>In a dramatic late-night confrontation in the heart of Musutafu, Japan’s No. 1 Pro Hero, **Endeavor**, sustained serious injuries during a fierce battle with a newly emerged villain faction calling themselves **Black Veil**. The group, whose members remain unidentified, launched a coordinated assault on a Hero Public Safety Commission facility, prompting an immediate response from top-ranked heroes.</p><p>Eyewitnesses reported seeing Endeavor engage in a high-speed aerial battle with a cloaked figure wielding a Quirk that manipulates shadows. “It was like watching a thunderstorm made of fire and darkness,” said one bystander. “The sky lit up, and then everything went black.”</p><p>Endeavor was later seen being evacuated by **Hawks**, the No. 2 Hero, who confirmed that the flame-wielding veteran is in stable condition but will require time to recover. “He fought like hell,” Hawks told reporters. “But this new group… they’re organized. And they’re not afraid of us.”</p><h3>UA Students Step Up</h3><p>In a surprising turn, several <b>U.A. High School</b> students, including <b>Izuku Midoriya (Deku)</b>, <b>Katsuki Bakugo</b>, and <b>Shoto Todoroki</b>, were spotted assisting in civilian evacuations and containment efforts. Principal Nezu has since confirmed that the students were acting under emergency provisional licenses.</p><p>“These young heroes demonstrated exceptional courage and restraint,” said Nezu. “Their actions likely saved dozens of lives.”</p><h3>Who Are the Black Veil?</h3><p>Little is known about the Black Veil, but early intelligence suggests ties to remnants of the <b>League of Villains</b> and possible foreign Quirk extremists. Their leader, a figure shrouded in darkness and referred to only as <b>“Umbra”</b>, is believed to possess a Quirk that allows them to manipulate and weaponize shadows.</p><p>The Hero Commission has issued a Level 4 alert and is urging citizens to remain vigilant. “This is not over,” said Commission Chairwoman Riko Tsutsumi. “We are entering a new era of villainy, and we must be ready.”</p><h3>Public Reaction</h3><p>Social media has erupted with support for Endeavor and the young heroes. Hashtags like <b>#PrayForEndeavor, #DekuToTheRescue, and #BlackVeilUnmasked</b> are trending across HeroNet.</p><p>Meanwhile, critics are questioning the Commission’s preparedness and the wisdom of deploying students into active combat zones. “We’re proud of our kids,” said one parent. “But they’re still kids.”</p><p style=\"font-size: 20px;\"><b>Stay tuned to Hero Times for updates on Endeavor’s condition, the investigation into Black Veil, and exclusive interviews with Japan’s top heroes.</b></p>"
   },
   {
-    "id": 11,
-    "title": "U.A. High Launches New Hero Internship Program Amid Rising Villain Activity",
-    "meta": "3:48 PM - October 19, 2025",
-    "body": "In response to a recent uptick in villain activity across the Kanto region, U.A. High School has announced a revamped internship initiative aimed at giving first-year students more real-world experience earlier in their training.",
-    "content": "<p><strong>Musutafu, Japan</strong> — In response to a recent uptick in villain activity across the Kanto region, U.A. High School has announced a revamped internship initiative aimed at giving first-year students more real-world experience earlier in their training.</p>\n<p>The program, dubbed “Proximity Patrol,” will pair students with local Pro Heroes for short-term field assignments focused on urban surveillance, rescue drills, and quirk coordination. Principal Nezu emphasized the importance of adaptability:  </p>\n<blockquote>\n<p>“Villains are evolving. Our students must evolve faster.”</p>\n</blockquote>\n<p>The announcement comes just days after a coordinated attack on a Hero Supply Depot in Shizuoka, allegedly orchestrated by remnants of the Paranormal Liberation Front. Authorities have yet to confirm the identities of the perpetrators, but eyewitnesses reported seeing a masked figure with a gravity-distorting quirk.</p>\n<p>Among the students selected for the pilot phase are Izuku Midoriya, Katsuki Bakugo, and Shoto Todoroki, whose recent performance during the Joint Training Battle earned high praise from faculty and Pro Heroes alike.</p>\n<p><strong>Public Reaction</strong><br>While many citizens support the initiative, some have voiced concerns over student safety. “They’re still kids,” said one local resident. “We need heroes, but not at the cost of their lives.”</p>"
+    "id":11,
+    "title":"U.A. High Launches New Hero Internship Program Amid Rising Villain Activity",
+    "meta":"3:48 PM - October 19, 2025",
+    "body":"In response to a recent uptick in villain activity across the Kanto region, U.A. High School has announced a revamped internship initiative aimed at giving first-year students more real-world experience earlier in their training.",
+    "content":"<p><strong>Musutafu, Japan</strong> — In response to a recent uptick in villain activity across the Kanto region, U.A. High School has announced a revamped internship initiative aimed at giving first-year students more real-world experience earlier in their training.</p>\n<p>The program, dubbed “Proximity Patrol,” will pair students with local Pro Heroes for short-term field assignments focused on urban surveillance, rescue drills, and quirk coordination. Principal Nezu emphasized the importance of adaptability:  </p>\n<blockquote>\n<p>“Villains are evolving. Our students must evolve faster.”</p>\n</blockquote>\n<p>The announcement comes just days after a coordinated attack on a Hero Supply Depot in Shizuoka, allegedly orchestrated by remnants of the Paranormal Liberation Front. Authorities have yet to confirm the identities of the perpetrators, but eyewitnesses reported seeing a masked figure with a gravity-distorting quirk.</p>\n<p>Among the students selected for the pilot phase are Izuku Midoriya, Katsuki Bakugo, and Shoto Todoroki, whose recent performance during the Joint Training Battle earned high praise from faculty and Pro Heroes alike.</p>\n<p><strong>Public Reaction</strong><br>While many citizens support the initiative, some have voiced concerns over student safety. “They’re still kids,” said one local resident. “We need heroes, but not at the cost of their lives.”</p>"
   },
   {
-    "id": 12,
-    "title": "Villain Assault Paralyzes Shibuya — Pro Heroes Engaged in Fierce Battle",
-    "meta": "11:03 AM - October 21, 2025",
-    "body": "Chaos erupted in the heart of Shibuya this afternoon as a coordinated villain attack brought the bustling district to a standstill. Eyewitnesses report explosions near the iconic Scramble Crossing, followed by the emergence of multiple high-threat villains wielding destructive quirks.",
-    "content": "<h2>Breaking News: Villain Assault Paralyzes Shibuya — Pro Heroes Engaged in Fierce Battle</h2>\n<p><strong>Shibuya, Tokyo — October 21, 2025</strong></p>\n<p>Chaos erupted in the heart of Shibuya this afternoon as a coordinated villain attack brought the bustling district to a standstill. Eyewitnesses report explosions near the iconic Scramble Crossing, followed by the emergence of multiple high-threat villains wielding destructive quirks.</p>\n<h3 id="situation-overview">Situation Overview</h3>\n<ul>\n<li><strong>Time of Attack:</strong> Approx. 12:45 PM JST</li>\n<li><strong>Location:</strong> Shibuya Scramble Crossing, Center Gai, and surrounding blocks</li>\n<li><strong>Villain Group:</strong> Unconfirmed, but believed to be a rogue faction with ties to the Paranormal Liberation Front</li>\n<li><strong>Quirks Observed:</strong> Telekinetic fragmentation, seismic stomping, and a rare illusion-based quirk causing mass confusion</li>\n</ul>\n<p>Civilians were seen fleeing in all directions as the villains began targeting key infrastructure, including the Shibuya Station and several high-rise buildings. Emergency services have cordoned off the area, and evacuation protocols are underway.</p>\n<h3 id="heroes-on-the-scene">Heroes on the Scene</h3>\n<p>Unlike previous incidents involving U.A. students, this battle is being handled by Tokyo-based Pro Heroes including:</p>\n<ul>\n<li><strong>Mirko</strong> — seen engaging a brute-type villain near Hachikō Square</li>\n<li><strong>Ryukyu</strong> — coordinating aerial evacuations and containment</li>\n<li><strong>Selkie</strong> — deployed from Yokohama to assist with water-based rescue operations in the flooded subway tunnels</li>\n<li><strong>Crust</strong> — reportedly shielding civilians trapped inside a collapsed department store</li>\n</ul>\n<p>The battle is ongoing, with reinforcements en route from neighboring wards. Hero agencies are urging residents to avoid the area and shelter in place.</p>\n<h3 id="current-impact">Current Impact</h3>\n<ul>\n<li><strong>Injuries:</strong> 18 civilians confirmed injured, 3 in critical condition</li>\n<li><strong>Damage:</strong> Multiple buildings compromised; Shibuya Station temporarily shut down</li>\n<li><strong>Transportation:</strong> All train lines through Shibuya suspended; traffic gridlocked across central Tokyo</li>\n</ul>\n<h3 id="-investigation-and-response">🕵️ Investigation and Response</h3>\n<p>The Hero Public Safety Commission has activated emergency protocols and is monitoring the situation closely. Early reports suggest the villains may be testing a new form of coordinated illusion-based disruption, making it difficult for heroes to distinguish real threats from decoys.</p>\n<p>Commission spokesperson stated:</p>\n<blockquote>\n<p>“This is a high-level threat scenario. We are deploying specialized units to counter the psychological and physical damage being inflicted.”</p>\n</blockquote>\n"
+    "id":12,
+    "title":"Villain Assault Paralyzes Shibuya — Pro Heroes Engaged in Fierce Battle",
+    "meta":"11:03 AM - October 21, 2025",
+    "body":"Chaos erupted in the heart of Shibuya this afternoon as a coordinated villain attack brought the bustling district to a standstill. Eyewitnesses report explosions near the iconic Scramble Crossing, followed by the emergence of multiple high-threat villains wielding destructive quirks.",
+    "content":"<h2>Breaking News: Villain Assault Paralyzes Shibuya — Pro Heroes Engaged in Fierce Battle</h2>\n<p><strong>Shibuya, Tokyo — October 21, 2025</strong></p>\n<p>Chaos erupted in the heart of Shibuya this afternoon as a coordinated villain attack brought the bustling district to a standstill. Eyewitnesses report explosions near the iconic Scramble Crossing, followed by the emergence of multiple high-threat villains wielding destructive quirks.</p>\n<h3 id=""situation-overview"">Situation Overview</h3>\n<ul>\n<li><strong>Time of Attack:</strong> Approx. 12:45 PM JST</li>\n<li><strong>Location:</strong> Shibuya Scramble Crossing, Center Gai, and surrounding blocks</li>\n<li><strong>Villain Group:</strong> Unconfirmed, but believed to be a rogue faction with ties to the Paranormal Liberation Front</li>\n<li><strong>Quirks Observed:</strong> Telekinetic fragmentation, seismic stomping, and a rare illusion-based quirk causing mass confusion</li>\n</ul>\n<p>Civilians were seen fleeing in all directions as the villains began targeting key infrastructure, including the Shibuya Station and several high-rise buildings. Emergency services have cordoned off the area, and evacuation protocols are underway.</p>\n<h3 id=""heroes-on-the-scene"">Heroes on the Scene</h3>\n<p>Unlike previous incidents involving U.A. students, this battle is being handled by Tokyo-based Pro Heroes including:</p>\n<ul>\n<li><strong>Mirko</strong> — seen engaging a brute-type villain near Hachikō Square</li>\n<li><strong>Ryukyu</strong> — coordinating aerial evacuations and containment</li>\n<li><strong>Selkie</strong> — deployed from Yokohama to assist with water-based rescue operations in the flooded subway tunnels</li>\n<li><strong>Crust</strong> — reportedly shielding civilians trapped inside a collapsed department store</li>\n</ul>\n<p>The battle is ongoing, with reinforcements en route from neighboring wards. Hero agencies are urging residents to avoid the area and shelter in place.</p>\n<h3 id=""current-impact"">Current Impact</h3>\n<ul>\n<li><strong>Injuries:</strong> 18 civilians confirmed injured, 3 in critical condition</li>\n<li><strong>Damage:</strong> Multiple buildings compromised; Shibuya Station temporarily shut down</li>\n<li><strong>Transportation:</strong> All train lines through Shibuya suspended; traffic gridlocked across central Tokyo</li>\n</ul>\n<h3 id=""-investigation-and-response"">🕵️ Investigation and Response</h3>\n<p>The Hero Public Safety Commission has activated emergency protocols and is monitoring the situation closely. Early reports suggest the villains may be testing a new form of coordinated illusion-based disruption, making it difficult for heroes to distinguish real threats from decoys.</p>\n<p>Commission spokesperson stated:</p>\n<blockquote>\n<p>“This is a high-level threat scenario. We are deploying specialized units to counter the psychological and physical damage being inflicted.”</p>\n</blockquote>\n"
+  },
+  {
+    "id":13,
+    "title":"Heronet fixed the bug of contents not showing",
+    "meta":"5:00 PM - October 23, 2025",
+    "body":"Herosite infastrature has finally been fixed",
+    "content":"Herosite infastrature has finally been fixed, it should be usable again"
   }
-  ]
