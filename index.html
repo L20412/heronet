@@ -93,7 +93,7 @@
       el.innerHTML = '';
       // Sort newest first
       const sorted = news.slice().sort((a, b) => b.id - a.id);
-      sorted.slice(0, 2).forEach(n => {
+      sorted.slice(0, 3).forEach(n => {
         el.innerHTML += `
           <div style='margin-bottom:12px'>
             <strong>${n.title}</strong><br>
