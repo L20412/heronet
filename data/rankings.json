@@ -1,14 +1,15 @@
 [
-  {"pos": 1, "name": "Lemillion", "score": 29989},
-  {"pos": 2, "name": "Shoto", "score": 29119},
-  {"pos": 3, "name": "Deku", "score": 28112},
-  {"pos": 4, "name": "Mt. Lady", "score": 27272},
-  {"pos": 5, "name": "Anime Queen", "score": 27258},
-  {"pos": 6, "name": "Great Explosion Murder God Dynamight", "score": 27200},
-  {"pos": 7, "name": "Rickroller", "score": 23800},
-  {"pos": 8, "name": "Codegeist", "score": 23799},
-  {"pos": 9, "name": "Kazuko", "score": 23798},
-  {"pos": 10, "name": "Kamui Woods", "score": 23612},
+  {"pos": 1, "name": "Lemillion", "score": 32212},
+  {"pos": 2, "name": "Deku", "score": 31006},
+  {"pos": 3, "name": "Shoto", "score": 29881},
+  {"pos": 4, "name": "Anime Queen", "score": 28331},
+  {"pos": 5, "name": "Mt. Lady", "score": 27272},
+  {"pos": 6, "name": "Great Explosion Murder God Dynamight", "score": 27258},
+  {"pos": 7, "name": "Rickroller", "score": 26200},
+  {"pos": 8, "name": "Codegeist", "score": 25020},
+  {"pos": 9, "name": "Kazuko", "score": 24110},
+  {"pos": 10, "name": "Kamui Woods", "score": 23991},
+  {"pos": 11, "name": "Invisible Girl", "score": 23700},
   {"pos": 11, "name": "Phantom Thief", "score": 23012},
   {"pos": 12, "name": "Mirko", "score": 23000},
   {"pos": 13, "name": "Ingenium", "score": 20010},
@@ -29,5 +30,6 @@
   {"pos": 28, "name": "Edgeshot", "score": 13003},
   {"pos": 29, "name": "Crimson Riot", "score": 13002},
   {"pos": 30, "name": "Gunhead", "score": 13001},
-  {"pos": 31, "name": "Pinky", "score": 12996}
-]
+  {"pos": 31, "name": "Pinky", "score": 12996},
+  {"pos": 32, "name": "Yoroi Musha", "score": 12995}
+}
