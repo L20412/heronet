@@ -1,0 +1,12 @@
+[
+  {
+    "id": 0,
+    "version":"pre-v1",
+    "contents": "New changelog file."
+  },
+  {
+    "id": 1,
+    "version": "v1",
+    "contents": "• Added changelog button in start menu\n• Fixed few bugs."
+  }
+]
