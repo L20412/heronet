@@ -1,12 +1,20 @@
 [
   {
     "id": 0,
-    "version":"pre-v1",
-    "contents": "New changelog file."
+    "version":"pre-v1.0.0",
+    "contents": "New changelog file.",
+    "4thwall": ""
   },
   {
     "id": 1,
-    "version": "v1",
-    "contents": "• Added changelog button in start menu\n• Fixed few bugs."
+    "version": "v1.0.0",
+    "contents": "• Added changelog button in start menu\n• Fixed few bugs.",
+    "4thwall": ""
+  },
+  {
+    "id": 2,
+    "version": "v1.0.1",
+    "contents": "• Added changelog and about button",
+    "4thwall": "• If you break fourth wall, the about screen will show that we are not affilated with mha-related companies or individuals"
   }
 ]
