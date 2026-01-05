@@ -16,5 +16,11 @@
     "version": "v1.0.1",
     "contents": "• Added changelog and about button\n• Changed startup sound and boot screen",
     "4thwall": "• If you break fourth wall, the about screen will show that we are not affilated with mha-related companies or individuals"
+  },
+  {
+    "id": 3,
+    "version": "v1.1.0",
+    "contents": "• Added Escape app",
+    "4thwall": ""
   }
 ]
